@@ -1,6 +1,6 @@
 import pikepdf
 
-# TODO: Request the PDF files from the official page of the university and parse into a file format spoke by pikepdf
+# TODO: #1 Request the PDF files from the official page of the university and parse into file format.
         
 def extract_urls(pdf):
     """ 
@@ -43,10 +43,4 @@ def identify_courses(url):
     # None statement
     return None
 
-# TODO: Guess the curriculum with nodes and the known courses
-
-# TEST
-urls = extract_urls("administracion_publica_73_2021(1).pdf")
-
-for url in urls:
-    print(identify_courses(url))
+# TODO: Add a curriculum "guesser" with the known courses and the nodes between them.
