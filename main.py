@@ -1,6 +1,6 @@
 import pikepdf
 
-# TODO: #1 Request the PDF files from the official page of the university and parse into file format.
+# TODO: #1 Request the PDF files from the official page of the university and convert into file format.
         
 def extract_urls(pdf):
     """ 
