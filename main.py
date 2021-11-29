@@ -22,7 +22,7 @@ def extract_urls(pdf):
     # Return statement
     return urls
 
-def identify_courses(url):
+def identify_course(url):
     """ 
     Identify if the url references a course.
     If possible, returns the referenced course, otherwise returns None.
