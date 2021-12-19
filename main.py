@@ -44,3 +44,4 @@ def identify_course(url):
     return None
 
 # TODO: #2 Add a curriculum "guesser" with the known courses and the nodes between them
+    
