@@ -78,7 +78,7 @@ class Course:
                     else:
                         inclusive_courses.append(self.properties["Prerrequisitos"][init:ind+1])
                             
-                    exclusive_courses.append(inclusive_courses)
+                    exclusive_courses.append(set(inclusive_courses))
 
             # Return statement
             return exclusive_courses
